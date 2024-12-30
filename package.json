@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "homepage": "https://github.com/Ahmed775c6/test.git",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
